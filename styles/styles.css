@@ -775,13 +775,13 @@ section {
   .header-content .left-header .image {
     
      height: 17rem;
-    width: 15rem;
+     width: 15rem;
      border-radius: 50%; 
    
    
     /* width: 90%; */
     /* height: 90%; */
-    background-color: #F56692;
+    /* background-color: #F56692; */
   }
   .header-content .left-header .image img{
     height: 100%;
