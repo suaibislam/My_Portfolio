@@ -370,6 +370,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .mongoodb {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .hacking {
+  width: 20%;
+}
 
 .stat-title {
   text-transform: uppercase;
@@ -969,7 +972,7 @@ section {
 
   .header-content {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
   }
 
   .left-header .h-shape {
@@ -987,16 +990,22 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+    line-height: 2.2rem;
+  }
+  .btn-con{
+    display: none;
   }
 }
 @media screen and (max-width: 700px) {
   .container {
     padding: 7rem 3rem;
   }
-
+  .left-header{
+    margin-top:0;
+  }
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1018,6 +1027,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+  /* .image-hero{
+    height: 5rem;
+    width: 5rem;
+  } */
 }
 
 /*# sourceMappingURL=styles.css.map */
