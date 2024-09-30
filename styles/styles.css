@@ -1031,6 +1031,25 @@ section {
     height: 5rem;
     width: 5rem;
   } */
+
+  /* .portfolio-item{
+    display: flex;
+    flex-direction: column;
+  } */
+   .portfolios-one{
+    /* background-color: #9ec939; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+   }
 }
 
 /*# sourceMappingURL=styles.css.map */
+.portfolios-one {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
