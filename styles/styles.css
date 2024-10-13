@@ -1023,9 +1023,9 @@ section {
     padding-top: 1.5rem;
     line-height: 2.2rem;
   }
-  .btn-con{
+  /* .btn-con{
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 700px) {
   .container {
